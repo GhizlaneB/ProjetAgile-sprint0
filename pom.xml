@@ -93,7 +93,7 @@
 							<version>1.2.0.Final</version>
 						</path>
 					</annotationProcessorPaths>
-					<mainClass>com.ProjetAgileApplication</mainClass>
+					<mainClass>ubo.sprint0.SprintApplication</mainClass>
 				</configuration>
 				<executions>
 				</executions>
