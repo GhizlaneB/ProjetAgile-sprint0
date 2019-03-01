@@ -4,6 +4,6 @@
     "goal": "install  -DskipTests"
   },
   "deploy": {
-    "jarName": "target/ubo.sprint0-0.0.1-SNAPSHOT.jar"
+    "jarName": "target/ubo-0.0.1-SNAPSHOT.jar"
   }
 }
