@@ -19,7 +19,7 @@ public class EnseignantService {
 	}
 
 	// Recuperer un enseignant par son identifiant
-	public Optional<Enseignant> getEnseignant(int noenseignant) {
+	public Optional<Enseignant> recupererEnseignantParNoEnseignant(int noenseignant) {
 		return enseignantrepository.findById(noenseignant);
 	}
 

@@ -33,7 +33,7 @@ public class FormationController {
 	}
 
 	// Recuperer formations par nom de la formation
-	@RequestMapping("/formations/nom/{nomFormation}")
+	@RequestMapping(method = RequestMethod.GET,value="/formations/nom/{nomFormation}")
 	public Formation RecupererLaFormationAvecLeNom(@PathVariable String nomFormation) {
 		return formationService.RecupererLaFormationAvecLeNom(nomFormation);
 	}

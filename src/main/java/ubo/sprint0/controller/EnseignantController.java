@@ -32,8 +32,8 @@ public class EnseignantController {
 
 	//Recuperer un enseignant par son id 
 	@RequestMapping(method = RequestMethod.GET, value="/enseignants/{noEnseignant}")
-	public Optional<Enseignant> getEnseignant(@PathVariable int noEnseignant) {
-		return enseignantservice.getEnseignant(noEnseignant);
+	public Optional<Enseignant> recupererEnseignantParNoEnseignant(@PathVariable int noEnseignant) {
+		return enseignantservice.recupererEnseignantParNoEnseignant(noEnseignant);
 	}
 
 	//Recuperer un enseignant par son nom
